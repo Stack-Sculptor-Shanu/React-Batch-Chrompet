@@ -1,9 +1,8 @@
 import { Fragment } from "react";
 
 function ListIterator(props) {
-  //   console.log(props);
   let { navlist } = props;
-  console.log(navlist);
+  // console.log(navlist);
   return (
     <>
       {navlist.map((ele, index) => {

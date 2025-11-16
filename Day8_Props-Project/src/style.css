@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 
@@ -72,3 +72,65 @@ body {
 }
 /*! Navabr CSS ended and firstSection will start here */
 
+/*! First Section Starts here  */
+.sectionsContainer {
+  height: 100vh;
+  width: 100%;
+  /* background-color: green; */
+  position: absolute;
+  top: 0;
+}
+.firstSection {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: -10;
+  object-fit: cover;
+}
+
+.imgSection {
+  height: 100vh;
+  width: 100%;
+  margin-top: -6px;
+}
+.pages {
+  position: relative;
+  top: calc(100vh - 64px);
+}
+.content {
+  position: absolute;
+  bottom: 200px;
+  left: 100px;
+  width: 700px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.content > h1 {
+  font-size: 48px;
+  margin: 0 0px 20px 0;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.content > p {
+  margin: 0 0 25px 0;
+}
+
+button {
+  padding: 15px 25px 15px 15px;
+  border-radius: 7px;
+  display: flex;
+  gap: 20px;
+  background-color: #fff;
+  color: #575353;
+  border: 1px solid gainsboro;
+}
+button:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.pagesVideo {
+  height: 100%;
+  width: 100%;
+  margin-top: -10px;
+}

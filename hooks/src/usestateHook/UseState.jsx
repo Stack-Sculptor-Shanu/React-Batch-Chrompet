@@ -27,10 +27,16 @@ const UseState = () => {
   }
 
   console.log(`My count value is: ${initialValue}`);
+
+  function decrement() {
+    setInitialValue(initialValue - 1);
+  }
   return (
     <div>
       <h1>{initialValue}</h1>
       <button onClick={handleIncrement}>Increase the value</button>
+      <button onClick={decrement}>Decrease the value by 1</button>
+      <button onClick={() => setInitialValue(0)}>reset</button>
     </div>
   );
 };

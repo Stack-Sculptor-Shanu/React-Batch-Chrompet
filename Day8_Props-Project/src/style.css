@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 body {
-  /* background-color: black; */
-  color: white;
+  /* color: white; */
 }
 
 /*! Navbar CSS starts here  */
@@ -14,7 +13,6 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  /* background-color: green; */
 }
 
 .navbar-container > .logo {
@@ -23,7 +21,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: purple; */
 }
 
 .navbar-container > .logo > svg {
@@ -36,7 +33,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* background-color: lightpink; */
 }
 .navlist > li {
   list-style: none;
@@ -57,12 +53,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: blueviolet; */
 }
 .dropdown > select {
   height: 50%;
   width: 80%;
-  /* border: none; */
   outline: none;
   padding: 0 10px;
   background-color: transparent;
@@ -73,19 +67,43 @@ body {
 /*! Navabr CSS ended and firstSection will start here */
 
 /*! First Section Starts here  */
+
 .sectionsContainer {
   height: 100vh;
   width: 100%;
-  /* background-color: green; */
+  position: relative;
+  background-color: green;
+}
+.pages {
+  position: relative;
+}
+.sectionsContainer video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.sectionsContainer .content {
+  height: 500px;
+  width: 500px;
   position: absolute;
-  top: 0;
+  background-color: red;
+  top: 500px;
+}
+.sectionsContainer img {
+  height: 100%;
+  width: 100%;
+}
+/* .sectionsContainer {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: -70px;
+  z-index: -10;
 }
 .firstSection {
   height: 100%;
   width: 100%;
-  position: absolute;
   top: 0;
-  z-index: -10;
   object-fit: cover;
 }
 
@@ -97,25 +115,25 @@ body {
 .pages {
   position: relative;
   top: calc(100vh - 64px);
-}
-.content {
+} */
+/* .content {
   position: absolute;
   bottom: 200px;
   left: 100px;
   width: 700px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-.content > h1 {
+} */
+/* .content > h1 {
   font-size: 48px;
   margin: 0 0px 20px 0;
   line-height: 48px;
   text-transform: uppercase;
-}
-.content > p {
+} */
+/* .content > p {
   margin: 0 0 25px 0;
-}
+} */
 
-button {
+/* button {
   padding: 15px 25px 15px 15px;
   border-radius: 7px;
   display: flex;
@@ -127,10 +145,19 @@ button {
 button:hover {
   color: #fff;
   background-color: transparent;
-}
+} */
 
-.pagesVideo {
-  height: 100%;
+/* .pagesVideo {
+  height: 100vh;
   width: 100%;
   margin-top: -10px;
-}
+  object-fit: cover;
+} */
+
+/* .allSection > div {
+  position: relative;
+} */
+/* .footer {
+  position: absolute;
+  bottom: 0;
+} */

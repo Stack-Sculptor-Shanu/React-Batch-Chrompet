@@ -1,10 +1,17 @@
 import React from "react";
-import UseState from "./usestateHook/UseState";
+// import UseState from "./usestateHook/UseState";
+import Parent from "./usestateHook/Practices/Parent";
+import UseRef from "./useRefHook/UseRef";
 
 const App = () => {
   return (
     <div>
-      <UseState />
+      {/*! Use State Hook and additional practice */}
+      {/* <UseState /> */}
+      {/* <Parent /> */}
+
+      {/*! Use Ref Hook and Practices */}
+      <UseRef />
     </div>
   );
 };

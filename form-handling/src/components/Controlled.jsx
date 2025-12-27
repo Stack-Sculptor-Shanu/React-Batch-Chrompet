@@ -1,4 +1,6 @@
 import { useState } from "react";
+import style from "./controlled.module.css";
+console.log(style);
 
 const Controlled = () => {
   //   const [username, setUsername] = useState("");
@@ -33,7 +35,7 @@ const Controlled = () => {
     console.log(formData);
   }
   return (
-    <div>
+    <div className={style.diff}>
       <h1>Controlled Form</h1>
       <form action="Demo" onSubmit={handleSubmit}>
         <label htmlFor="">Enter Name: </label>

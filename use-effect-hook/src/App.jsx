@@ -16,7 +16,8 @@ const App = () => {
   //   useEffect(() => {
   //     fetchData();
   //   }, []);
-
+  console.log(githubData);
+  console.log("Shyam is studying!!!");
   useEffect(() => {
     fetchData();
   }, [count]);
